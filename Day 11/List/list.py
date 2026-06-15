@@ -32,3 +32,9 @@ else:
     median =int((len(dup)-1)/2)
     print(dup[median])
     print(dup)
+
+l = [1,2,3,4,5,6,7,8,9,10]
+print(l[1:])
+print(l[:9])
+print(l[1:9:2])
+print(l[::9])

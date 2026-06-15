@@ -1,6 +1,9 @@
-l = [-1,-2,-3,-4,-5,-6,-7,-8,-9,-10]
-print(l[-1:])
-print(l[:-9])
-print(l[-1:-9:-2])
-print(l[::-9])
-
+def vote():
+    name = input("Enter your name:- ")
+    print(f"Name:- {name}")
+    age = int(input("Enter your age:- "))
+    if age >=18:
+        print("Your are eligible to vote")
+    else:
+        print("You are not eligible")
+vote()

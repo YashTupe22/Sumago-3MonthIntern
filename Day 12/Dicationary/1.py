@@ -2,8 +2,7 @@ d = {"id":1,
      "name":'Yash',
      'desg':'da',
      'salary':75000}
-
-print(d)
+print(d["name"])
 print(d.keys())
 print(d.items())
 print(d.popitem())

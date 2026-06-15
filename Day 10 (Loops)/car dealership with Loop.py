@@ -31,13 +31,13 @@ if age >=18:
                     if rent == "yes" or "Yes" or "YES" or "Y" or "y":
                         rentday = int(input("How many days do you want to rent the car:- "))
                         print(f"\tDelux Motor Pvt Ltd\n\tPune\nName:- {name}\nAge:- {age}\nLicense:- Yes\nRented Car:- Audi Q3\nNo of Day to be rented:-{rentday}\nBase Payment:- {Audi_Q3_Rent*rentday}\nDeposit:- {Audi_Q3_Deposit}\nTotal Payable amount:- {Audi_Q3_Deposit+(Audi_Q3_Rent*rentday)}")
-                if car==2:
+                elif car==2:
                     print(f"Audi A5 Details:\n1.Comapany: Audi\n2.Type: Sedan\n3.Mileage: 14KMPL\n4.Deposit: {Audi_A5_Deposit}\n5.Rent(per day): {Audi_A5_Rent}")
                     rent = input("Do you want to rent this model:- ")
                     if rent == "yes" or "Yes" or "YES" or "Y" or "y":
                         rentday = int(input("How many days do you want to rent the car:- "))
                         print(f"\tDelux Motor Pvt Ltd\n\tPune\nName:- {name}\nAge:- {age}\nLicense:- Yes\nRented Car:- Audi A5\nNo of Day to be rented:-{rentday}\nBase Payment:- {Audi_A5_Rent*rentday}\nDeposit:- {Audi_A5_Deposit}\nTotal Payable amount:- {Audi_A5_Deposit+(Audi_A5_Rent*rentday)}")
-                if car==3:
+                elif car==3:
                     print(f"Audi TT Details:\n1.Comapany: Audi\n2.Type: Luxury Sedan\n3.Mileage: 14KMPL\n4.Deposit: {Audi_TT_Deposit}\n5.Rent(per day): {Audi_TT_Rent}")
                     rent = input("Do you want to rent this model:- ")
                     if rent == "yes" or "Yes" or "YES" or "Y" or "y":
@@ -65,13 +65,13 @@ if age >=18:
                     if rent == "yes" or "Yes" or "YES" or "Y" or "y":
                         rentday = int(input("How many days do you want to rent the car:- "))
                         print(f"\tDelux Motor Pvt Ltd\n\tPune\nName:- {name}\nAge:- {age}\nLicense:- Yes\nRented Car:- BMW x7\nNo of Day to be rented:-{rentday}\nBase Payment:- {BMW_x7_Rent*rentday}\nDeposit:- {BMW_x7_Deposit}\nTotal Payable amount:- {BMW_x7_Deposit+(BMW_x7_Rent*rentday)}")
-                if car==2:
+                elif car==2:
                     print(f"BMW M340i Details:\n1.Comapany: BMW\n2.Type: Sedan\n3.Mileage: 14KMPL\n4.Deposit: {BMW_M340I_Deposit}\n5.Rent(per day): {BMW_M340I_Rent}")
                     rent = input("Do you want to rent this model:- ")
                     if rent == "yes" or "Yes" or "YES" or "Y" or "y":
                         rentday = int(input("How many days do you want to rent the car:- "))
                         print(f"\tDelux Motor Pvt Ltd\n\tPune\nName:- {name}\nAge:- {age}\nLicense:- Yes\nRented Car:- BMW M340i\nNo of Day to be rented:-{rentday}\nBase Payment:- {BMW_M340I_Rent*rentday}\nDeposit:- {BMW_M340I_Deposit}\nTotal Payable amount:- {BMW_M340I_Deposit+(BMW_M340I_Rent*rentday)}")
-                if car==3:
+                elif car==3:
                     print(f"BMW 7 Series Details:\n1.Comapany: BMW\n2.Type: Luxury Sedan\n3.Mileage: 14KMPL\n4.Deposit: {BMW_7_Deposit}\n5.Rent(per day): {BMW_7_Rent}")
                     rent = input("Do you want to rent this model:- ")
                     if rent == "yes" or "Yes" or "YES" or "Y" or "y":
@@ -100,13 +100,13 @@ if age >=18:
                     if rent == "yes" or "Yes" or "YES" or "Y" or "y":
                         rentday = int(input("How many days do you want to rent the car:- "))
                         print(f"\tDelux Motor Pvt Ltd\n\tPune\nName:- {name}\nAge:- {age}\nLicense:- Yes\nRented Car:- Mercedes Benz GLA200\nNo of Day to be rented:-{rentday}\nBase Payment:- {MB_GLA200_Rent*rentday}\nDeposit:- {MB_GLA200_Deposit}\nTotal Payable amount:- {MB_GLA200_Deposit+(MB_GLA200_Rent*rentday)}")
-                if car==2:
+                elif car==2:
                     print(f"Mercedes Benz CLA Details:\n1.Comapany: Mercedes Benz\n2.Type: SUV\n3.Mileage: 14KMPL\n4.Deposit: {MB_CLA_Deposit}\n5.Rent(per day): {MB_CLA_Rent}")
                     rent = input("Do you want to rent this model:- ")
                     if rent == "yes" or "Yes" or "YES" or "Y" or "y":
                         rentday = int(input("How many days do you want to rent the car:- "))
                         print(f"\tDelux Motor Pvt Ltd\n\tPune\nName:- {name}\nAge:- {age}\nLicense:- Yes\nRented Car:- Mercedes Benz CLA\nNo of Day to be rented:-{rentday}\nBase Payment:- {MB_CLA_Rent*rentday}\nDeposit:- {MB_CLA_Deposit}\nTotal Payable amount:- {MB_CLA_Deposit+(MB_CLA_Rent*rentday)}")
-                if car==3:
+                elif car==3:
                     print(f"Mercedes Benz S200 Details:\n1.Comapany: Mercedes Benz\n2.Type: Luxury Sedan\n3.Mileage: 14KMPL\n4.Deposit: {MB_S_Deposit}\n5.Rent(per day): {MB_S_Rent}")
                     rent = input("Do you want to rent this model:- ")
                     if rent == "yes" or "Yes" or "YES" or "Y" or "y":

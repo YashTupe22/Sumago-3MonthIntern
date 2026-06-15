@@ -1,9 +1,6 @@
-count = int(input("How many product you want to add: "))
-for i in range(1,count+1):
-    product_4 = i
-    p4_qty = i
-    p4_price = i
-    i+=1
-    print(product_4,
-          p4_qty,
-          p4_price)
+l = [-1,-2,-3,-4,-5,-6,-7,-8,-9,-10]
+print(l[-1:])
+print(l[:-9])
+print(l[-1:-9:-2])
+print(l[::-9])
+

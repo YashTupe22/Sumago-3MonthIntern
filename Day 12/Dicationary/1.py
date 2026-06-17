@@ -1,5 +1,5 @@
 d = {"id":1,
-     "name":'Yash',
+     "name":['Yash'],
      'desg':'da',
      'salary':75000}
 print(d["name"])
@@ -9,3 +9,4 @@ print(d.popitem())
 d.update({"Salary":100000})
 print(d)
 print(d.get("Salary"))
+print(d["name",0])

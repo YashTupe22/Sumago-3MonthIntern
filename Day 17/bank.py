@@ -12,6 +12,7 @@ def bank(f):
 def deposit(balance,amount):
     balance += amount
     return balance
+
 @bank
 def withdraw(balance,amount):
     if balance<amount:

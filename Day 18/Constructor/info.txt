@@ -1,0 +1,4 @@
+Constructor
+
+1. Constructor is a special method used to create and initialize an object of an method.ON the other hand the destructor is used
+    to destroy a object

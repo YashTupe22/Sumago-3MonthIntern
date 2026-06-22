@@ -1,5 +1,7 @@
 # TASK ON LIST
 n = [10,20,50,60,80,90,10,20,50]
+n.sort(reverse=True)
+print(n[2])
 # Write a program to sort a list of integers in ascending order.
 print(n.sort())
 # Write a program to find the maximum value in a list of integers.

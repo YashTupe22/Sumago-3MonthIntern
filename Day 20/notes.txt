@@ -1,0 +1,11 @@
+The process of inheriting the properties of the parent class into a child class is called inheritance. \
+The existing class is called a base class or parent class and the new class is called subclass or child class or derived class
+
+The Main purpose of inheritance is the reusability of the code because we can use the existing class 
+to create a new class instead of creating it from scratch
+
+The Type of Inheritance
+1. Single
+2.Mutiple
+3.Multilevel
+4.Hierarchical

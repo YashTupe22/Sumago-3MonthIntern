@@ -56,4 +56,4 @@ elif Ticket_Type == 3:
     M = PlatinumTicket(Booking_ID,Customer_Name,Base_Price)
     M.ticket_price()
 else:
-    print("Wrong Information!!")
+    print("Wrong Information!!!")

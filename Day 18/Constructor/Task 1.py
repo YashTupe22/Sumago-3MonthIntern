@@ -5,5 +5,4 @@ class Product:
         self.price = price
         self.quantity = Quantity
 
-    def product1(self):
-        w
+    

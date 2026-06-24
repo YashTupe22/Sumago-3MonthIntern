@@ -1,5 +1,4 @@
 from abc import ABC,abstractmethod
-
 class Vehicle(ABC):
     def __init__(self,Vehicle_Number,Rent_Per_Day):
         self.Vehicle_Number = Vehicle_Number

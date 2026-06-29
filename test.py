@@ -1,17 +1,37 @@
-if Choice == 3:
-            print(f"\tWelcome to caving Account Service Mr.{Holder_Name}")
-            fa = CurrentAccount(Account_Number,Holder_Name,Balance)
-            choice = int(input("Main menu\n1.Deposit\n2.Withdraw\n3.Check Balance\n4.Calculate Interest\n5.Log out\n "))
-            if choice == 1:
-                amount = int(input("How much amount you want to deposit:- "))
-                ca.deposit(amount)
-            elif choice == 2:
-                amount = int(input("How much amount you want to Withdraw:- "))
-                ca.withdraw(amount)
-            elif choice == 3:
-                ca.get_balance()
-            elif choice == 4:
-                ca.calculate_interest()
-            else:
-                print("Exiting to Login page")
-                break
+import numpy as np
+
+a_count = 0
+b_count = 0
+c_count = 0
+d_count = 0
+e_count = 0
+f_count = 0
+
+l1 = []
+
+for i in range(36):
+    a = np.random.choice([1, 2, 3, 4, 5, 6])
+    l1.append(int(a))
+
+    if a == 1:
+        a_count += 1
+    elif a == 2:
+        b_count += 1
+    elif a == 3:
+        c_count += 1
+    elif a == 4:
+        d_count += 1
+    elif a == 5:
+        e_count += 1
+    elif a == 6:
+        f_count += 1
+
+print("1 appeared:", a_count)
+print("2 appeared:", b_count)
+print("3 appeared:", c_count)
+print("4 appeared:", d_count)
+print("5 appeared:", e_count)
+print("6 appeared:", f_count)
+
+print("Total rolls:", len(l1))
+print("Rolls:", l1)

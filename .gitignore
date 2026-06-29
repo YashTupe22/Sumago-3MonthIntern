@@ -18,6 +18,7 @@ build/
 .vscode/
 *.swp
 *.swo
+*.idea
 
 # OS
 .DS_Store

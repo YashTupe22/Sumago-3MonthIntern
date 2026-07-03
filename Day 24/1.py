@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+import matplotlib.pylab as plt
 d1 = pd.Series([1,2,3,4,5])
 print(d1)
 
@@ -48,3 +48,5 @@ print(a)
 b = df[df['Name'].isin(["Alice"])]
 print(b)
 
+k = plt.bar(data['Salary'],height=5,color="Red ")
+plt.show()
